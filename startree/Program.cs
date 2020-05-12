@@ -10,9 +10,13 @@ namespace startree
     {
         static void Main(string[] args)
         {
-            for(int i=7; i>0; i--)
+            for(int i=8; i>0; i--)
             {
-                for(int j=0; j<i; j++)
+                for(int j=0; j<i-1; j++)
+                {
+                    Console.Write(" ");
+                }
+                for(int j=0; j<9-i; j++)
                 {
                     Console.Write("*");
                 }
