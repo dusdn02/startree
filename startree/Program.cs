@@ -19,6 +19,11 @@ namespace startree
                 for(int j=0; j<9-i; j++)
                 {
                     Console.Write("*");
+                    
+                }
+                for(int j=0; j<8-i; j++)
+                {
+                    Console.Write("*");
                 }
                 Console.WriteLine();
             }
